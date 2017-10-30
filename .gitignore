@@ -1,0 +1,16 @@
+*.tmp/
+*.ip_user_files/
+*.cache/
+*.runs/
+*.sim/
+ip_upgrade.log
+ipshared/
+.Xil/
+.metadata/
+*.o
+*.log
+*.d
+Debug/
+*.hdf
+*.jou
+*.str

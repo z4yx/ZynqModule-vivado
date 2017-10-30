@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root MajorVersion="0"
+		MinorVersion="33">
+	<CompositeFile CompositeFileTopName="ps_blk"
+			CanBeSetAsTop="false"
+			CanDisplayChildGraph="true">
+		<Description>Composite Fileset</Description>
+		<Generation Name="SYNTHESIS"
+				State="RESET"
+				Timestamp="1509366938"/>
+		<Generation Name="IMPLEMENTATION"
+				State="RESET"
+				Timestamp="1509366938"/>
+		<Generation Name="SIMULATION"
+				State="RESET"
+				Timestamp="1509366938"/>
+		<Generation Name="HW_HANDOFF"
+				State="RESET"
+				Timestamp="1509366938"/>
+		<FileCollection Name="SOURCES"
+				Type="SOURCES">
+			<File Name="ip/ps_blk_processing_system7_0_0/ps_blk_processing_system7_0_0.xci"
+					Type="IP">
+				<Instance HierarchyPath="processing_system7_0"/>
+				<Properties IsEditable="false"
+						IsVisible="true"
+						Timestamp="0"
+						IsTrackable="true"
+						IsStatusTracked="true"/>
+				<Library Name="xil_defaultlib"/>
+				<UsedIn Val="SYNTHESIS"/>
+				<UsedIn Val="IMPLEMENTATION"/>
+				<UsedIn Val="SIMULATION"/>
+			</File>
+			<File Name="ip/ps_blk_debug_bridge_0_0/ps_blk_debug_bridge_0_0.xci"
+					Type="IP">
+				<Instance HierarchyPath="debug_bridge_0"/>
+				<Properties IsEditable="false"
+						IsVisible="true"
+						Timestamp="0"
+						IsTrackable="true"
+						IsStatusTracked="true"/>
+				<Library Name="xil_defaultlib"/>
+				<UsedIn Val="SYNTHESIS"/>
+				<UsedIn Val="IMPLEMENTATION"/>
+				<UsedIn Val="SIMULATION"/>
+			</File>
+			<File Name="ip/ps_blk_rst_ps7_0_50M_0/ps_blk_rst_ps7_0_50M_0.xci"
+					Type="IP">
+				<Instance HierarchyPath="rst_ps7_0_50M"/>
+				<Properties IsEditable="false"
+						IsVisible="true"
+						Timestamp="0"
+						IsTrackable="true"
+						IsStatusTracked="true"/>
+				<Library Name="xil_defaultlib"/>
+				<UsedIn Val="SYNTHESIS"/>
+				<UsedIn Val="IMPLEMENTATION"/>
+				<UsedIn Val="SIMULATION"/>
+			</File>
+			<File Name="ip/ps_blk_smartconnect_0_0/ps_blk_smartconnect_0_0.xci"
+					Type="IP">
+				<Instance HierarchyPath="smartconnect_0"/>
+				<Properties IsEditable="false"
+						IsVisible="true"
+						Timestamp="0"
+						IsTrackable="true"
+						IsStatusTracked="true"/>
+				<Library Name="xil_defaultlib"/>
+				<UsedIn Val="SYNTHESIS"/>
+				<UsedIn Val="IMPLEMENTATION"/>
+				<UsedIn Val="SIMULATION"/>
+			</File>
+			<File Name="ip/ps_blk_nt35510_apb_adapter_0_0/ps_blk_nt35510_apb_adapter_0_0.xci"
+					Type="IP">
+				<Instance HierarchyPath="nt35510_apb_adapter_0"/>
+				<Properties IsEditable="false"
+						IsVisible="true"
+						Timestamp="0"
+						IsTrackable="true"
+						IsStatusTracked="true"/>
+				<Library Name="xil_defaultlib"/>
+				<UsedIn Val="SYNTHESIS"/>
+				<UsedIn Val="IMPLEMENTATION"/>
+				<UsedIn Val="SIMULATION"/>
+			</File>
+			<File Name="ip/ps_blk_axi_apb_bridge_0_0/ps_blk_axi_apb_bridge_0_0.xci"
+					Type="IP">
+				<Instance HierarchyPath="axi_apb_bridge_0"/>
+				<Properties IsEditable="false"
+						IsVisible="true"
+						Timestamp="0"
+						IsTrackable="true"
+						IsStatusTracked="true"/>
+				<Library Name="xil_defaultlib"/>
+				<UsedIn Val="SYNTHESIS"/>
+				<UsedIn Val="IMPLEMENTATION"/>
+				<UsedIn Val="SIMULATION"/>
+			</File>
+		</FileCollection>
+	</CompositeFile>
+</Root>
